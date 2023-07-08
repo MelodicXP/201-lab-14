@@ -8,7 +8,7 @@ let imgElements = document.querySelectorAll('img');
 let imgContainer = document.querySelector('section');
 
 
-let state = new AppState();
+let state = new AppState(); //contains allProducts[] empty array
 state.loadItems();
 
 function generateRandomProduct() {
